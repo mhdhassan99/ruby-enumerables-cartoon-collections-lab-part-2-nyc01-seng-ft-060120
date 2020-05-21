@@ -24,6 +24,8 @@ def long_planeteer_calls(planeteer_calls)
   while i < planeteer_calls.length do
     if planeteer_calls[i].length > 4
       return true
+    else 
+      return false 
     end
   i += 1
   end
